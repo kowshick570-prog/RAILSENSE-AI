@@ -18,7 +18,7 @@ Indian Railways manages over **67,000 km** of railway track, much of which still
 
 ---
 
-## ❗ Problem Statement
+##  Problem Statement
 
 - 67,000+ km of track, largely dependent on manual/periodic inspection
 - Delayed fault detection → derailments, damage, delays, safety risk
@@ -26,13 +26,13 @@ Indian Railways manages over **67,000 km** of railway track, much of which still
 
 ---
 
-## 💡 Proposed Solution
+##  Proposed Solution
 
 RAILSENSE AI deploys low-cost sensor nodes along the track that continuously monitor vibration, temperature, current, and location data. A TensorFlow Lite model running directly on the ESP32 detects anomalies at the edge, a severity engine classifies the risk level, and the system autonomously sends alerts and maintenance recommendations via MQTT — enabling a **sense → think → decide → act** pipeline with minimal human intervention.
 
 ---
 
-## 🔧 Hardware Components
+##  Hardware Components
 
 | Component | Function |
 |---|---|
@@ -45,7 +45,7 @@ RAILSENSE AI deploys low-cost sensor nodes along the track that continuously mon
 
 ---
 
-## ⚙️ Working / Pipeline
+##  Working / Pipeline
 
 1. **Sense** – Sensors continuously collect track condition data (vibration, temperature, current, location)
 2. **Think** – ESP32 performs edge processing on incoming sensor streams
@@ -65,31 +65,31 @@ RAILSENSE AI deploys low-cost sensor nodes along the track that continuously mon
 
 ## ✨ Key Features
 
-- 🔮 Predictive maintenance (forecast failures before they occur)
+-  Predictive maintenance (forecast failures before they occur)
 - ⚡ Edge AI processing — no constant cloud dependency
-- 📡 Real-time monitoring via MQTT
-- 📍 GPS-based fault localization
-- 🤖 Autonomous, tiered alert system
-- 💰 Extremely low-cost, scalable deployment
+-  Real-time monitoring via MQTT
+-  GPS-based fault localization
+-  Autonomous, tiered alert system
+-  Extremely low-cost, scalable deployment
 
 ---
 
-## 💰 Estimated Cost
+##  Estimated Cost
 
 **< ₹2,000 per monitoring node** — enabling dense, network-wide deployment without massive capital investment.
 
 ---
 
-## 🚀 Future Scope
+##  Future Scope
 
-- 📶 LoRaWAN integration for long-range, low-power communication
-- 🌐 Digital twin implementation of railway track segments
-- 🖥️ Centralized railway dashboard for zone-wide visibility
-- 🛤️ Large-scale deployment across all railway zones
+-  LoRaWAN integration for long-range, low-power communication
+-  Digital twin implementation of railway track segments
+-  Centralized railway dashboard for zone-wide visibility
+-  Large-scale deployment across all railway zones
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 railsense-ai/
@@ -106,7 +106,7 @@ railsense-ai/
 
 ---
 
-## 👥 Team
+##  Team
 
 **Far Away 2026 Hackathon Submission**
 
